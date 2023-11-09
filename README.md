@@ -1,16 +1,20 @@
 # proyecttomect
 Para el desarrollo de este código se generó por medio de chatGPt en donde se le solicito de manera clara y precisa lo siguiente 
- 
+porfavor realiza un codigo en python en donde por medio de los materiales que se tienen en stock que son 3 los cuales son un acero 1100 con limite elastico de 34 Mpa resistencia maxima de 90 Mpay una dureza brinell de 23 el segundo es un aluminio 6061 con limite elastico de 55 Mpa resistencia maxima de 124Mpa y una dureza brinell de 30 y el tercero de ellos es aluminio 7075 con limite elastico de 103 Mpa resistencia maxima de 228 Mpa y una dureza brinell de 60, para la releccion se toma en cuenta que sea el valor mas cercano por debajo de lo que se esta pidiendo en donde cumpla que los tres valores sean los mas sercanos al que se esta pidiendo al ver que no se tiene o que los rangos estan por arriba decirle al usuario que el material no se encuentra en stock, además se le tiene que pedir al usuario los valores de límite elástico, resistencia máxima, dureza brinell 
 Al ejecutar este se presenta un problema, el cual se le pide directamente a chatGPT que lo corrija y genere el nuevo código como se muestra a continuación
 Pregunta 2 
+
+porfavor corrigeme el codigo anterior pues no es los valores mas cercanos a los valores que el usuario solicita sino que los 3 valores esten por encima de los que el usuario solicita
  
 Al observar que el funcionamiento correcto de este mismo se le genera el proceso de ampliación del código permitiendo tener un mayor campo del mismo en donde se implementa un listado en Excel de los materiales con sus principales características.
 Preguna 3
+
+el codigo esta correcto ahora ayudame a que los valores sean tomados de un documento de excel en donde se pueden tener entre 3 a 10 materiales con distintos valores y me genere el mismo proceso variando entre los 3 a 10 materiales
  
 Al ejecutar esto se nos presentó que nos daba múltiples respuestas a lo cual se necesitaba más precisión en donde se pide más precisión y se genera el ultimo código. 
 Pregunta 4
- 
-import pandas as pd
+
+por favor corregir este error del código anterior FileNotFoundError: [Errno 2] No existe tal archivo o directorio: 'materiales.xlsx'
 
 # Cargar los datos desde un archivo Excel
 df = pd.read_excel('materiales.xlsx')  # Asegúrate de que el archivo 'materiales.xlsx' contenga tus datos
